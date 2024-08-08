@@ -1,0 +1,21 @@
+{
+  "name": "kepket",
+  "version": "1.0.0",
+  "description": "KepKet restaurant ordering system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.13.0",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
